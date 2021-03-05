@@ -3,7 +3,7 @@ entries:
   gitlab:
   - apiVersion: v1
     appVersion: 13.9.0
-    created: "2021-03-05T13:41:42.220618854+08:00"
+    created: "2021-03-05T23:24:49.833020445+08:00"
     dependencies:
     - name: gitlab
       repository: ""
@@ -62,6 +62,17 @@ entries:
     sources:
     - https://gitlab.com/gitlab-org/charts/gitlab
     urls:
-    - https://robertzhangwenjie.github.io/charts/gitlab-4.9.0.tgz
+    - gitlab-4.9.0.tgz
     version: 4.9.0
-generated: "2021-03-05T13:41:42.170003666+08:00"
+  robert-shop:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-03-05T23:24:49.833272299+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 64eafaa10bd842b55df845fb9df15fe0c2f106502ba89ad8c8c18370ecfcff92
+    name: robert-shop
+    type: application
+    urls:
+    - robert-shop-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-03-05T23:24:49.781660911+08:00"
